@@ -1,0 +1,49 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIW - FakeStoreAPI</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-dark mb-5 d-flex align-items-center">
+  <div class="container">
+    <div class="mt-4" id="productDetails">
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img id="productImage" class="card-img" alt="Imagem do Produto">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title" id="productTitle"></h5>
+              <p class="card-text" id="productPrice"></p>
+              <span class="card-text" id="productRating"></span> 
+              <i class="fas fa-star" style="color: #ffd500;"></i>
+              <p class="card-text mt-3" id="productDescription"></p>
+            </div>
+
+            <div class="card-body">
+              <a class="btn btn-primary" href="index.html">
+                <i class="fas fa-arrow-left"></i> Voltar
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <p id="productNotFound"></p>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+
+    <script src="script-detalhes.js"></script>
+</body>
